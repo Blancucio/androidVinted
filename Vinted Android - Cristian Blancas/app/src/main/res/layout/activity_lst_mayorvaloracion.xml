@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lst_Productos.view.LstProductosActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerV"
+        android:layout_width="317dp"
+        android:layout_height="504dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/top10Productos"
+        android:layout_width="wrap_content"
+        android:layout_height="74dp"
+        android:layout_above="@+id/recyclerV"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="0dp"
+        android:text="TOP 10 PRODUCTOS MAS VALORADOS"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="195dp"
+        android:layout_height="106dp"
+        android:layout_above="@+id/top10Productos"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="1dp"
+        app:srcCompat="@drawable/logo_antiguo" />
+
+
+</RelativeLayout>

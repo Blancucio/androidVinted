@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="combo_tipo">
+        <item>Tipo</item>
+        <item>Ropa</item>
+        <item>Accesorio</item>
+
+    </string-array>
+</resources>
